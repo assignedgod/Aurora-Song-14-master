@@ -38,9 +38,16 @@ public sealed partial class CCVars : CVars
     public static readonly CVarDef<bool> DebugPow3rDisableParallel =
         CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
 
+    #region Surgery
+
+    public static readonly CVarDef<bool> CanOperateOnSelf =
+        CVarDef.Create("surgery.can_operate_on_self", true, CVar.SERVERONLY);
+
+    #endregion
+
     /// <summary>
-    ///     Goobstation: The amount of time between NPC Silicons draining their battery in seconds.
+    ///     Should the player automatically get up after being knocked down
     /// </summary>
-    public static readonly CVarDef<float> SiliconNpcUpdateTime =
-        CVarDef.Create("silicon.npcupdatetime", 1.5f, CVar.SERVERONLY);
+    public static readonly CVarDef<bool> AutoGetUp =
+        CVarDef.Create("white.auto_get_up", true, CVar.CLIENT | CVar.ARCHIVE | CVar.REPLICATED); // WD EDIT
 }
