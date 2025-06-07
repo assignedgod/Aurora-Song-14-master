@@ -566,7 +566,7 @@
 - type: entity
   id: PelletShrapnelCrossbow
   name: crossbow shrapnel pellet
-  categories: [ HideSpawnMenu ]
+#  categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
   - type: Sprite
