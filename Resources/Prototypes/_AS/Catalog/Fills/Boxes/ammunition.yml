@@ -1,0 +1,10 @@
+﻿- type: entity
+  name: box of SMG .35 auto stick magazines
+  parent: WeaponCaseShortAmmo
+  id: WeaponCaseShortSMG35LethalStick
+  description: A box full of SMG .35 auto magazines.
+  components:
+  - type: StorageFill
+    contents:
+    - id: MagazinePistolSubMachineGun
+      amount: 4

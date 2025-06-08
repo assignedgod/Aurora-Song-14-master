@@ -20,3 +20,7 @@
 
 - type: Tag
   id: MercDock
+
+#region uplinks - Aurora
+- type: Tag
+  id: MercenaryUplink
