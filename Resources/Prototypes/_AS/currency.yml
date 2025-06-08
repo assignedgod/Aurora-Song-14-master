@@ -1,0 +1,6 @@
+﻿- type: currency
+  id: MercCoin
+  displayName: store-currency-display-merc-telecrystal
+  cash:
+    1: MercCoin1
+  canWithdraw: true
