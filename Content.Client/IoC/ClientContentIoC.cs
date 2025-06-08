@@ -3,6 +3,7 @@ using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
 using Content.Client.Clickable;
 using Content.Client.DebugMon;
+using Content.Client.Consent; //Floofstation
 using Content.Client.Eui;
 using Content.Client.Fullscreen;
 using Content.Client.GameTicking.Managers;
@@ -35,6 +36,7 @@ namespace Content.Client.IoC
 
             collection.Register<IParallaxManager, ParallaxManager>();
             collection.Register<IChatManager, ChatManager>();
+            collection.Register<IClientConsentManager, ClientConsentManager>();
             collection.Register<ISharedChatManager, ChatManager>();
             collection.Register<IClientPreferencesManager, ClientPreferencesManager>();
             collection.Register<IStylesheetManager, StylesheetManager>();

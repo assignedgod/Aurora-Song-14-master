@@ -3,6 +3,7 @@ using System;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Content.Server.Database.Migrations.Sqlite
 {
     [DbContext(typeof(SqliteServerDbContext))]
-    partial class SqliteServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250308222517_FloofConsentSystem")]
+    partial class FloofConsentSystem
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
@@ -980,11 +983,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("INTEGER")
                         .HasColumnName("profile_role_loadout_id");
 
-                    b.Property<string>("EntityName")
-                        .HasMaxLength(256)
-                        .HasColumnType("TEXT")
-                        .HasColumnName("entity_name");
-
                     b.Property<int>("ProfileId")
                         .HasColumnType("INTEGER")
                         .HasColumnName("profile_id");
@@ -1680,16 +1678,16 @@ namespace Content.Server.Database.Migrations.Sqlite
                 });
 
             modelBuilder.Entity("Content.Server.Database.ConsentToggle", b =>
-            {
-                b.HasOne("Content.Server.Database.ConsentSettings", "ConsentSettings")
-                    .WithMany("ConsentToggles")
-                    .HasForeignKey("ConsentSettingsId")
-                    .OnDelete(DeleteBehavior.Cascade)
-                    .IsRequired()
-                    .HasConstraintName("FK_consent_toggle_consent_settings_consent_settings_id");
+                {
+                    b.HasOne("Content.Server.Database.ConsentSettings", "ConsentSettings")
+                        .WithMany("ConsentToggles")
+                        .HasForeignKey("ConsentSettingsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_consent_toggle_consent_settings_consent_settings_id");
 
-                b.Navigation("ConsentSettings");
-            });
+                    b.Navigation("ConsentSettings");
+                });
 
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
@@ -2016,9 +2014,9 @@ namespace Content.Server.Database.Migrations.Sqlite
                 });
 
             modelBuilder.Entity("Content.Server.Database.ConsentSettings", b =>
-            {
-                b.Navigation("ConsentToggles");
-            });
+                {
+                    b.Navigation("ConsentToggles");
+                });
 
             modelBuilder.Entity("Content.Server.Database.Player", b =>
                 {
