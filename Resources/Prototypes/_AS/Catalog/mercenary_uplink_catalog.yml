@@ -242,3 +242,48 @@
     whitelist:
       tags:
       - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenary35autoSMGmagsOP
+  name: uplink-mercenary-35auto-OP-mags-name
+  description: uplink-mercenary-35auto-OP-mags-desc
+  productEntity: WeaponCaseShortSMG35OverpressureStick
+  cost:
+    MercCoin: 6
+  categories:
+    - UplinkMercenaryAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenary30Overpressure
+  name: uplink-mercenary-30Rifle-OP-mags-name
+  description: uplink-mercenary-30Rifle-OP-mags-desc
+  productEntity: NFBoxMagazineRifle30Overpressure
+  cost:
+    MercCoin: 6
+  categories:
+    - UplinkMercenaryAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenary20Overpressure
+  name: uplink-mercenary-20Rifle-OP-mags-name
+  description: uplink-mercenary-20Rifle-OP-mags-desc
+  productEntity: NFBoxMagazineRifle20Overpressure
+  cost:
+    MercCoin: 6
+  categories:
+    - UplinkMercenaryAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
