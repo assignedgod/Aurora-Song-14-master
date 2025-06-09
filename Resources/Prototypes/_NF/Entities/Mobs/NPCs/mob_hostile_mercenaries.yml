@@ -34,7 +34,7 @@
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: FoodMeatHumans
+    - id: FoodMeatHuman
       amount: 2
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 1.5
