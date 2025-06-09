@@ -108,13 +108,15 @@
 # Surplus
 - type: entity
   name: Drozd
-  parent: [ BaseC1Contraband, NFWeaponSubMachineGunDrozd]
+  parent: [ BaseC1Contraband, NFWeaponSubMachineGunDrozd ]
   id: WeaponSubMachineGunSurpDrozd
   suffix: Surplus
   components:
   - type: Gun
     burstCooldown: 0.5
+    burstFireRate: 4.5
     shotsPerBurst: 5
+    selectedMode: Burst
     availableModes:
     - Burst
   - type: Sprite
