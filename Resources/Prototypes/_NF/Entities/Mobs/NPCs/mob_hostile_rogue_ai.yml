@@ -264,7 +264,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrap
   categories: [ HideSpawnMenu ]
@@ -327,7 +327,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapThreads
   categories: [ HideSpawnMenu ]
@@ -377,7 +377,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapThrusters
   categories: [ HideSpawnMenu ]
@@ -475,7 +475,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapFlayer
   categories: [ HideSpawnMenu ]
@@ -665,7 +665,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconServo
   name: servo unit
@@ -702,7 +702,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconHerder
   name: herder unit
@@ -760,7 +760,7 @@
 - type: entity
   parent:
   - MobRogueSiliconDroneBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconHitscanBatteryAmmo
   id: MobRogueSiliconHunter
   name: hunter unit
@@ -817,7 +817,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   id: MobRogueSiliconCatcher
   name: catcher unit
   description: Equipped with bolas, this unit is designed to slow, capture, and detain targets.
@@ -883,7 +883,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconTesla
   name: tesla unit
@@ -953,7 +953,7 @@
 - type: entity
   parent:
   - MobRogueSiliconDroneBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   - MobRogueSiliconHitscanBatteryAmmo
   - NFMobBossRestrictions
   id: MobRogueSiliconGuardian
@@ -1026,7 +1026,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegen
+  - MobPassiveRegenStrong
   id: MobRogueSiliconBoss
   name: one star unit
   description: An autonomous combat-grade mech, typically used for offensive operations. Now a rogue AI's elite guard. Equipped with missile launchers, exercise extreme caution.

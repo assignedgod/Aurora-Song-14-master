@@ -14,20 +14,21 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      80: Critical
-      105: Dead
+      100: Critical
+      130: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      48: 0.7
-      64: 0.5
+      60: 0.7
+      80: 0.5
   - type: DamageStateVisuals
+    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: FoodMeatRotten
+    - id: FoodMeatHuman
       amount: 2
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 1.5
@@ -467,7 +468,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      160: Dead
+      180: Dead
   - type: Stamina
     critThreshold: 480
   - type: Destructible
@@ -521,7 +522,7 @@
   - NFMobBossRestrictions
   id: MobExplorerBoss
   description: Fearless and battle-hardened salvage team leaders, it takes years picking through the darkest corners of space and navigating the galaxy's criminal underbelly of the galaxy before you can become a captain. Not to be underestimated.
-  categories: [ HideSpawnMenu ]
+#  categories: [ HideSpawnMenu ]
   components:
   - type: Reflect # Emulating holopickaxe to a degree
     reflectProb: 0.025
@@ -559,7 +560,7 @@
     energy: 3
   - type: MobThresholds
     thresholds:
-      100: Critical
+      110: Critical
       130: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
