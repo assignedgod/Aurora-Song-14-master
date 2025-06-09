@@ -211,7 +211,6 @@
     - WeaponCaseShortWard45Expedition
     - WeaponCaseShortRevolverPirate
     - WeaponCaseLongC20r
-    - WeaponCaseLongJackdaw
     - WeaponCaseLongGestioExpedition
     - WeaponCaseLongWeaponRifleNovaliteC1Expedition
     - WeaponCaseLongSVSExpedition
@@ -311,6 +310,7 @@
   - type: RandomSpawner
     prototypes:
     - WeaponCaseLongLauncherRocketExpedition
+    - WeaponCaseLongJackdaw
     - WeaponCaseLongLauncherChinaLake
     - WeaponCaseHeavyLightMachineGunL6
     - WeaponCaseLongEnergyGunExpedition

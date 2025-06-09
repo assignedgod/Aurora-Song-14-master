@@ -360,8 +360,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      80: Critical
-      120: Dead
+      100: Critical
+      140: Dead
   - type: Stamina
     critThreshold: 100
   - type: SlowOnDamage
@@ -372,7 +372,7 @@
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: FoodMeatRotten
+    - id: FoodMeatHuman
       amount: 2
   - type: NpcFactionMember
     factions:
@@ -446,8 +446,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      65: Critical
-      100: Dead
+      80: Critical
+      120: Dead
   - type: Stamina
     critThreshold: 100
   - type: NpcFactionMember
