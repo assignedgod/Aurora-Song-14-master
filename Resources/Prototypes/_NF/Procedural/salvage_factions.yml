@@ -284,9 +284,9 @@
       cost: 3
     - proto: MobRogueSiliconHunter
       cost: 4
-    - proto: MobRogueSiliconCatcher
-      cost: 3
-      prob: 0.3
+   # - proto: MobRogueSiliconCatcher
+   #   cost: 3
+   #   prob: 0.3
     - proto: MobRogueSiliconTesla
       cost: 4
     - proto: MobRogueSiliconScrapFlayer
