@@ -10,8 +10,7 @@
     inverted: true
   action:
     # TODO: this should pull the target closer or sumth, but I need to code that action first
-    !type:MoodAction
-    effect: BeingKissed
+    !type:NoOpAction
   effectSuccess:
     popup: Obvious
     sound: {path: /Audio/Floof/Lewd/kiss.ogg}
@@ -29,8 +28,7 @@
     inverted: true
   action:
     # TODO: this should pull the target closer or sumth, but I need to code that action first
-    !type:MoodAction
-    effect: BeingLicked
+    !type:NoOpAction
   effectSuccess:
     popup: Obvious
     sound: {path: /Audio/Floof/Lewd/lick.ogg}
