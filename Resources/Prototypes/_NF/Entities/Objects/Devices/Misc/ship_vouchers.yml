@@ -135,3 +135,17 @@
   - type: ShipyardVoucher
     access:
     - StationTrafficController
+
+- type: entity
+  parent: BaseShipVoucher
+  id: ShipVoucherPirate #Aurora
+  name: Pirate Captain Voucher
+  description: Arrgh! Get a ship me heartie!
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - state: VoucherPirate
+  - type: ShipyardVoucher
+    access:
+    - Pirate
