@@ -486,6 +486,8 @@ public enum LogType
     /// </summary>
     AtmosDirectionChanged = 204,
 
+    Consent = 12489, //Floofstation, high number random, avoid upstream conflict
+
     /// <summary>
     /// A player has posted a bounty contract.
     /// </summary>
