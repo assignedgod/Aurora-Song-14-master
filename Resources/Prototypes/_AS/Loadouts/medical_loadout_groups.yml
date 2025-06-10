@@ -24,7 +24,7 @@
   id: ASMedicalShoes
   name: loadout-group-medical-Shoes
   loadouts:
-  - MedicalclothingShoesColorWhite
+  - MedicalcCothingShoesColorWhite
   subgroups:
   - ContractorShoes
   fallbacks:

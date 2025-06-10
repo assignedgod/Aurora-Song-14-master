@@ -1,11 +1,9 @@
 ﻿- type: loadout
-  id: MedicalclothingShoesColorWhite
+  id: MedicalClothingShoesColorWhite
   effects:
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
-  - !type:GroupLoadoutEffect
-    proto: NFNotDoc
   price: 0
   equipment:
     shoes: ClothingShoesColorWhite
