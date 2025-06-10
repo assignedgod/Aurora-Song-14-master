@@ -77,9 +77,9 @@
   - ContractorClothingUniformJumpskirtBH
   - ContractorClothingUniformJumpsuitBHGrey
   - ContractorClothingUniformJumpskirtBHGrey
-  - ContractorUniformScrubsColorGreen
-  - ContractorUniformScrubsColorBlue
-  - ContractorUniformScrubsColorPurple
+  #- ContractorUniformScrubsColorGreen
+  #- ContractorUniformScrubsColorBlue
+  #- ContractorUniformScrubsColorPurple
   - ContractorClothingUniformJumpsuitParamedic
   - ContractorClothingUniformJumpskirtParamedic
   - ContractorClothingUniformJumpsuitVirology

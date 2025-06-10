@@ -20,24 +20,3 @@
   fallbacks:
   - MedicalHeadsetLoadout
 
-- type: loadoutGroup
-  id: ASMedicalShoes
-  name: loadout-group-medical-Shoes
-  loadouts:
-  - MedicalcCothingShoesColorWhite
-  subgroups:
-  - ContractorShoes
-  fallbacks:
-  - ContractorClothingShoesColorBlack
-
-- type: loadoutGroup
-  id: MedicalOuter
-  name: loadout-group-medical-outer
-  loadouts:
-  - MedicalClothingOuterCoatLabSeniorPhysician
-  - MedicalClothingOuterCoatParamedicWB
-  - MedicalClothingOuterHardsuitVoidParamed
-  subgroups:
-  - ContractorOuterClothing
-  fallbacks:
-  - MedicalClothingOuterHardsuitVoidParamed
