@@ -135,3 +135,21 @@
   - type: ShipyardVoucher
     access:
     - StationTrafficController
+
+- type: entity
+  parent: BaseShipVoucher
+  id: ShipVoucherPirate #Aurora
+  name: Pirate Captain Voucher
+  description: Arrgh! Get a ship me heartie!
+  components:
+  - type: Item
+    heldPrefix: red
+  - type: Sprite
+    layers:
+    - state: red
+    - state: voucherpirate
+  - type: ShipyardVoucher
+    consoleType: BlackMarket
+    destroyOnEmpty: true
+    access:
+    - Pirate
