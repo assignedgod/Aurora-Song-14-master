@@ -1,0 +1,29 @@
+- type: loadout
+  id: MedicalClothingOuterHardsuitVoidParamed
+  effects:
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: NFCoatCapable
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterHardsuitVoidParamed
+
+- type: loadout
+  id: MedicalClothingOuterCoatParamedicWB
+  effects:
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: NFCoatCapable
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatParamedicWB
+
+- type: loadout
+  id: MedicalClothingOuterCoatLabSeniorPhysician
+  effects:
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: NFCoatCapable
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatLabSeniorPhysician

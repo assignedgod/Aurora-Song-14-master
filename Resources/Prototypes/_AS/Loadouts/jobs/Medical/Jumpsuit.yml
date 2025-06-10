@@ -1,0 +1,17 @@
+﻿- type: loadout
+  id: MedicalUniformScrubsColorGreen
+  price: 0
+  equipment:
+    jumpsuit: UniformScrubsColorGreen
+
+- type: loadout
+  id: MedicalUniformScrubsColorBlue
+  price: 0
+  equipment:
+    jumpsuit: UniformScrubsColorBlue
+
+- type: loadout
+  id: MedicalUniformScrubsColorPurple
+  price: 0
+  equipment:
+    jumpsuit: UniformScrubsColorPurple
