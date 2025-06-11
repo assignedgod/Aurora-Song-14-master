@@ -2,7 +2,7 @@
   id: ScarEyeRight
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
+  speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin, Rodentia] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -12,7 +12,7 @@
   id: ScarEyeLeft
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin] # Frontier: added Goblin and afterwards
+  speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin, Rodentia] # Frontier: added Goblin and afterwards
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
