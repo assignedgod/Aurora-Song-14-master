@@ -1,21 +1,22 @@
 ﻿- type: job
-  id: Medic
-  name: job-name-medical
-  description: job-description-medical
-  playTimeTracker: JobMedical
+  id: Service
+  name: job-name-service
+  description: job-description-Service
+  playTimeTracker: JobService
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 # 10 hrs
-  startingGear: MedicGear
+      time: 10800
+  whitelisted: false
+  startingGear: ServiceGear
   alwaysUseSpawner: true
-  icon: "JobIconMedicalDoctor"
-  supervisors: job-supervisors-doc
+  icon: "JobIconServiceWorker"
+  supervisors: job-supervisors-sr
   weight: 170
   displayWeight: 55 # Second from the top
   canBeAntag: false
   accessGroups:
-  - Medical
   - GeneralAccess
+  - Service
   special:
   - !type:AddImplantSpecial
     implants: [ TrackingImplant ]
@@ -24,6 +25,7 @@
     prototype: FrontierBirthdayGift
 
 - type: startingGear
-  id: MedicGear
-  equipment:
-    pocket2: MedicalAppraisalTool
+  id: ServiceGear
+  storage:
+    back:
+    - EncryptionKeyService # Frontier
