@@ -15,10 +15,8 @@
   displayWeight: 55 # Second from the top
   canBeAntag: false
   accessGroups:
-  - Maintenance
-  - External # Frontier
+  - GeneralAccess
   - Service
-  - Frontier # Frontier
   special:
   - !type:AddImplantSpecial
     implants: [ TrackingImplant ]
