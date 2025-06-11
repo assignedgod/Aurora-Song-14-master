@@ -1,0 +1,21 @@
+- type: loadoutGroup
+  id: MedicalJumpsuit
+  name: loadout-group-medical-jumpsuit
+  loadouts:
+  - MedicalUniformScrubsColorGreen
+  - MedicalUniformScrubsColorBlue
+  - MedicalUniformScrubsColorPurple
+  subgroups:
+  - ContractorJumpsuit
+  fallbacks:
+  - ContractorClothingUniformJumpsuitColorGrey
+  - ContractorClothingUniformJumpskirtColorGrey
+
+- type: loadoutGroup
+  id: MedEars
+  name: loadout-group-Medical-ears
+  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - MedicalHeadsetLoadout
+  fallbacks:
+  - MedicalHeadsetLoadout
