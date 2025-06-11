@@ -6,11 +6,9 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # 10 hrs
-  whitelisted: true
-  startingGear: DocGear
+  startingGear: MedicGear
   alwaysUseSpawner: true
   icon: "JobIconMedicalDoctor"
-  requireAdminNotify: true
   supervisors: job-supervisors-doc
   weight: 170
   displayWeight: 55 # Second from the top
@@ -28,5 +26,4 @@
 - type: startingGear
   id: MedicGear
   equipment:
-    pocket1: WeaponDisabler
     pocket2: MedicalAppraisalTool
