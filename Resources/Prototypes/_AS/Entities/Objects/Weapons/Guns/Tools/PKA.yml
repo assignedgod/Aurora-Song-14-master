@@ -1,0 +1,38 @@
+﻿- type: entity
+  id: ASWeaponPKSLAYGambling
+  name: PK-Slay
+  parent: [ NFBaseWeaponFramePkaNanotrasen, NFBaseWeaponPkaChamberKineticMedium ]
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+  - type: Item
+    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+    storedSprite:
+      sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+      state: storage
+  - type: Clothing
+    sprite: _NF/Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
+  - type: Gun
+    projectileSpeed: 20
+    minAngle: 34.4
+    maxAngle: 43.2
+    angleIncrease: 7
+    angleDecay: 5
+    fireRate: 10
+    selectedMode: FullAuto
+    availableModes: FullAuto
+    examineCaliber: gun-examine-energybolt-kinetic-low
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
+      params:
+        volume: -5
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 0.25
+    rechargeSound:
+      path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+      params:
+        volume: -5
+  - type: BasicEntityAmmoProvider
+    proto: ASBulletKineticGambling
+    capacity: 36
+    count: 36
