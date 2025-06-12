@@ -899,18 +899,18 @@
   categories:
   - UplinkDisruption
 
-# - type: listing # Frontier
-  # id: UplinkEmag
-  # name: uplink-emag-name
-  # description: uplink-emag-desc
-  # productEntity: Emag
-  # discountCategory: veryRareDiscounts
-  # discountDownTo:
-    # Telecrystal: 3
-  # cost:
-    # Telecrystal: 5
-  # categories:
-  # - UplinkDisruption
+- type: listing # Frontier
+  id: UplinkEmag
+  name: uplink-emag-name
+  description: uplink-emag-desc
+  productEntity: Emag
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+  # Telecrystal: 3
+  cost:
+  # Telecrystal: 5
+  categories:
+  - UplinkDisruption
 
 - type: listing
   id: UplinkRadioJammer
@@ -1075,7 +1075,7 @@
   description: uplink-surplus-bundle-desc
   productEntity: CrateSyndicateSurplusBundle
   cost:
-    Telecrystal: 35 # Frontier: 20<35
+    Telecrystal: 30 # Frontier: 20<35
   categories:
   - UplinkDisruption
   conditions:
