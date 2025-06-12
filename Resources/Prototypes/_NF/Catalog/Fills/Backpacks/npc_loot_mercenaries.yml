@@ -92,6 +92,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     # Cash
     - id: SpaceCash100
       prob: 0.9
@@ -125,6 +126,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: NFMagazinePistol35
       prob: 0.9
     - id: NFMagazinePistol35Empty
@@ -146,6 +148,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     # Cash
     - id: SpaceCash100
       prob: 0.9
@@ -186,6 +189,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: NFAmmunitionBoxRifle20
       prob: 0.9
     - id: NFMagazineClipRifle20
@@ -207,6 +211,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     # Cash
     - id: SpaceCash500
       prob: 0.9
@@ -247,6 +252,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: NFAmmunitionBoxShellShotgunBuckshot
       prob: 0.9
     - id: NFAmmunitionBoxShellShotgunBuckshot
@@ -261,6 +267,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     # Cash
     - id: SpaceCash500
       prob: 0.9
@@ -308,6 +315,7 @@
     state: icon
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: NFSpeedLoaderPistol35
       prob: 0.9
     - id: NFSpeedLoaderPistol35
@@ -329,6 +337,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     # Cash
     - id: SpaceCash500
       prob: 0.9
@@ -376,6 +385,7 @@
     state: icon
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: Brutepack
       prob: 0.6
     - id: Ointment
@@ -401,6 +411,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     # Cash
     - id: SpaceCash500
       prob: 0.9
@@ -446,6 +457,7 @@
     state: icon
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: NFMagazineLowCapacityRifle30
       prob: 0.6
     - id: NFMagazineLowCapacityRifle30
@@ -498,6 +510,7 @@
         color: "#eeeeee"
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     # Cash
     - id: SpaceCash2500
       prob: 0.9

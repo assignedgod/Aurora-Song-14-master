@@ -77,6 +77,7 @@
       - id: NFSpeedLoaderPistol45
       - id: NFSpeedLoaderPistol45
       - id: SpaceCash5000
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -107,6 +108,7 @@
       - id: NFSpeedLoaderPistol45
       - id: NFSpeedLoaderPistol45
       - id: SpaceCash2500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -135,6 +137,7 @@
     items:
       - id: NFSpeedLoaderPistol45
       - id: SpaceCash2500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -162,6 +165,7 @@
   - type: SpawnItemsOnUse
     items:
       - id: SpaceCash2500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -191,6 +195,7 @@
     items:
       - id: NFWeaponEnergyPistolLaserAdvancedExpedition
       - id: SpaceCash2500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -219,6 +224,7 @@
     items:
       - id: NFWeaponEnergyPistolLaserExpedition
       - id: SpaceCash2500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -247,6 +253,7 @@
     items:
       - id: PowerCellHighPrinted
       - id: SpaceCash2500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -275,6 +282,7 @@
     items:
       - id: SpaceCash1000
       - id: SpaceCash500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -307,6 +315,7 @@
       - id: NFMagazineRifle30
       - id: ClothingShoesBootsMagSyndie
       - id: SpaceCash10000
+      - id: MercCoin1
       # Bonus Loot T4
       - id: SpaceCash2500
         prob: 0.9
@@ -336,6 +345,7 @@
       - id: NFMagazineRifle20
       - id: ClothingShoesBootsMagSyndie
       - id: SpaceCash10000
+      - id: MercCoin1
       # Bonus Loot T4
       - id: SpaceCash2500
         prob: 0.9
@@ -364,6 +374,7 @@
       - id: NFMagazineRifle30
       - id: ClothingShoesBootsMagSyndie
       - id: SpaceCash10000
+      - id: MercCoin1
       # Bonus Loot T4
       - id: SpaceCash2500
         prob: 0.9
@@ -389,6 +400,7 @@
   - type: SpawnItemsOnUse
     items:
       - id: SpaceCash10000
+      - id: MercCoin1
       # Bonus Loot T4
       - id: SpaceCash2500
         prob: 0.9
@@ -414,11 +426,12 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: NFWeaponSubMachineGunC20rExpedition
+      - id: NFWeaponSubMachineGunAtreidesExpedition
       - id: NFMagazineSubMachineGun35
       - id: NFMagazineSubMachineGun35
       - id: SpaceCash1000
       - id: SpaceCash1000
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -445,10 +458,11 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: NFWeaponSubMachineGunWt550Expedition
-      - id: NFMagazineSubMachineGunTopMounted35
+      - id: NFWeaponSubMachineGunC20rExpedition
+      - id: NFMagazineSubMachineGun35
       - id: SpaceCash1000
       - id: SpaceCash500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -479,6 +493,7 @@
       - id: NFAmmunitionBoxPistol35Overpressure
       - id: SpaceCash1000
       - id: SpaceCash500
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -506,7 +521,8 @@
   - type: SpawnItemsOnUse
     items:
       - id: SpaceCash1000
-      - id: SpaceCash500
+      - id: SpaceCash500#
+      - id: MercCoin1
       # Bonus Loot T3
       - id: SpaceCash1000
         prob: 0.9
@@ -538,6 +554,7 @@
       - id: NFMagazineHighCapacityPistol35
       - id: NFMagazineHighCapacityPistol35
       - id: SpaceCash1000
+      - id: MercCoin1
       # Bonus Loot T1
       - id: SpaceCash500
         prob: 0.9
@@ -558,6 +575,7 @@
       - id: NFWeaponPistolMk58Expedition
       - id: NFMagazineHighCapacityPistol35Overpressure
       - id: SpaceCash1000
+      - id: MercCoin1
       # Bonus Loot T1
       - id: SpaceCash500
         prob: 0.9
@@ -578,6 +596,7 @@
       - id: NFMagazineHighCapacityPistol35Overpressure
       - id: NFMagazineHighCapacityPistol35Overpressure
       - id: SpaceCash1000
+      - id: MercCoin1
       # Bonus Loot T1
       - id: SpaceCash500
         prob: 0.9
@@ -596,6 +615,7 @@
   - type: SpawnItemsOnUse
     items:
       - id: SpaceCash1000
+      - id: MercCoin1
       # Bonus Loot T1
       - id: SpaceCash500
         prob: 0.9

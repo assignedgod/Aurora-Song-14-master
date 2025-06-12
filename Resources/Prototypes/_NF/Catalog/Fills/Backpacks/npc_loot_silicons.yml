@@ -36,6 +36,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.75
     # Parts
@@ -62,6 +63,7 @@
   - type: SpawnItemsOnUse
     items:
     # Scrap chunks
+    - id: MercCoin1
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.75
     # Parts
@@ -93,6 +95,7 @@
   - type: SpawnItemsOnUse
     items:
     # Scrap chunks
+    - id: MercCoin1
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.75
     # Parts
@@ -128,6 +131,7 @@
   - type: SpawnItemsOnUse
     items:
     # Scrap chunks
+    - id: MercCoin1
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.75
     # Parts
@@ -167,6 +171,7 @@
   - type: SpawnItemsOnUse
     items:
     # Scrap chunks
+    - id: MercCoin1
     - id: ScrapOre20
       prob: 1.0
     - id: NFWeaponEnergyLightMachineGunTurbo
