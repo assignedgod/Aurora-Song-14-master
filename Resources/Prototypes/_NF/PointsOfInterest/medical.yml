@@ -8,20 +8,20 @@
 
 # Notes:
 # Medical ship garage, medical manager base and medical bounty staging area.
-- type: pointOfInterest
-  id: Medical
-  parent: BasePOI
-  name: 'Medical Dispatch'
-  minimumDistance: 1650
-  maximumDistance: 3400
-  spawnGroup: Required
-  gridPath: /Maps/_NF/POI/medical.yml
-  addComponents:
-  - type: IFF
-    color: "#00b7eb"
-  - type: StationTransit
-    routes:
-      SpawnPoints: 30
+#- type: pointOfInterest # Aurora's Song - Medical Dispatch disabled for now.
+#  id: Medical
+#  parent: BasePOI
+#  name: 'Medical Dispatch'
+#  minimumDistance: 1650
+#  maximumDistance: 3400
+#  spawnGroup: Required
+#  gridPath: /Maps/_NF/POI/medical.yml
+#  addComponents:
+#  - type: IFF
+#    color: "#00b7eb"
+#  - type: StationTransit
+#    routes:
+#      SpawnPoints: 30
 
 - type: gameMap
   id: Medical
