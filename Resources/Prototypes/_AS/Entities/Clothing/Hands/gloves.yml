@@ -1,0 +1,30 @@
+﻿- type: entity
+  parent: [ClothingHandsButcherable, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband added ContrabandClothing as parent
+  id: ClothingHandsGlovesNorthStarRaiden
+  name: Ultima Gauntlets
+  description: Standing here, I realize...
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/northstar.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/northstar.rsi
+  - type: MeleeWeapon
+    autoAttack: true
+    attackRate: 10
+    damage:
+      types:
+       Blunt: 1
+    soundHit:
+      collection: Punch
+      params:
+        volume: -30
+    animation: WeaponArcFist
+    mustBeEquippedToUse: true
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-blue
+  - type: FingerprintMask
+  - type: MeleeSpeech
+  - type: Actions
+  - type: StaticPrice
+    price: 100000
