@@ -24376,8 +24376,6 @@ entities:
       pos: 42.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24395,8 +24393,6 @@ entities:
       pos: 43.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24408,8 +24404,6 @@ entities:
       pos: 48.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24442,8 +24436,6 @@ entities:
       pos: 47.5,9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24455,8 +24447,6 @@ entities:
       pos: 30.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24468,8 +24458,6 @@ entities:
       pos: -19.5,16.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3561
   - uid: 3601
@@ -24824,8 +24812,6 @@ entities:
       pos: -46.5,26.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3558
       - 3577
@@ -24855,8 +24841,6 @@ entities:
       pos: 26.5,4.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24868,8 +24852,6 @@ entities:
       pos: 26.5,3.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24881,8 +24863,6 @@ entities:
       pos: 26.5,2.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24894,8 +24874,6 @@ entities:
       pos: 26.5,1.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24907,8 +24885,6 @@ entities:
       pos: 27.5,0.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24920,8 +24896,6 @@ entities:
       pos: 28.5,0.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24933,8 +24907,6 @@ entities:
       pos: 29.5,0.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24976,8 +24948,6 @@ entities:
       pos: 55.5,3.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -24989,8 +24959,6 @@ entities:
       pos: 55.5,2.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -25002,8 +24970,6 @@ entities:
       pos: 55.5,1.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -25079,8 +25045,6 @@ entities:
       pos: -46.5,25.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3558
       - 3577
@@ -25090,8 +25054,6 @@ entities:
       pos: -46.5,24.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3558
       - 3577
@@ -25109,8 +25071,6 @@ entities:
       pos: 31.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -25177,8 +25137,6 @@ entities:
       pos: -26.5,21.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3561
   - uid: 3708
@@ -25187,8 +25145,6 @@ entities:
       pos: -23.5,23.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3561
       - 3576
@@ -25198,8 +25154,6 @@ entities:
       pos: -21.5,23.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3561
       - 3576
@@ -25256,8 +25210,6 @@ entities:
       pos: -18.5,21.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3561
   - uid: 3718
@@ -25293,8 +25245,6 @@ entities:
       pos: -27.5,26.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3576
       - 3577
@@ -25304,8 +25254,6 @@ entities:
       pos: -27.5,25.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3576
       - 3577
@@ -25315,8 +25263,6 @@ entities:
       pos: -27.5,24.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3576
       - 3577
@@ -25326,8 +25272,6 @@ entities:
       pos: 44.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -25339,8 +25283,6 @@ entities:
       pos: 45.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -25352,8 +25294,6 @@ entities:
       pos: 46.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3559
       - 3578
@@ -25365,8 +25305,6 @@ entities:
       pos: 41.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25378,8 +25316,6 @@ entities:
       pos: 41.5,8.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25391,8 +25327,6 @@ entities:
       pos: 41.5,9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25404,8 +25338,6 @@ entities:
       pos: 32.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25417,8 +25349,6 @@ entities:
       pos: 33.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25430,8 +25360,6 @@ entities:
       pos: 34.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25443,8 +25371,6 @@ entities:
       pos: 34.5,8.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25456,8 +25382,6 @@ entities:
       pos: 34.5,9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3579
       - 3578
@@ -25547,8 +25471,6 @@ entities:
       pos: -7.5,23.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 3575
   - uid: 3745
