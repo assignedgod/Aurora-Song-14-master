@@ -1,0 +1,29 @@
+﻿- type: job
+  id: Medic
+  name: job-name-medical
+  description: job-description-medical
+  playTimeTracker: JobMedical
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 36000 # 10 hrs
+  startingGear: MedicGear
+  alwaysUseSpawner: true
+  icon: "JobIconMedicalDoctor"
+  supervisors: job-supervisors-doc
+  weight: 170
+  displayWeight: 55 # Second from the top
+  canBeAntag: false
+  accessGroups:
+  - Medical
+  - GeneralAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ TrackingImplant ]
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: startingGear
+  id: MedicGear
+  equipment:
+    pocket2: MedicalAppraisalTool

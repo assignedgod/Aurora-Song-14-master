@@ -1,0 +1,34 @@
+﻿- type: entity
+  id: ASBulletPistol35Funny
+  name: bullet (.35 pistol, Honk)
+  parent: NFBaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: bullet
+      color: "#ff00f3FF"
+      shader: unshaded
+    - state: bullet-trace
+      color: "#ff00f3BB"
+      shader: unshaded
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 0.5
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        maxVol: 15
+  - type: RefillableSolution
+    solution: ammo
+  - type: DrainableSolution
+    solution: ammo
+  - type: SolutionInjectOnProjectileHit
+    transferAmount: 15
+    solution: ammo
+  - type: InjectableSolution
+    solution: ammo
+  - type: Tracer
+    color: "#ff00f3BB"
+    length: 3

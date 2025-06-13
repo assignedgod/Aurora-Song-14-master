@@ -9,7 +9,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 8
+        Heat: 10
 
 # Assault Rifles / Carbines
 - type: entity
@@ -38,7 +38,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 12
+        Heat: 15
 
 # Rifles
 - type: entity
@@ -50,7 +50,41 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 14
+        Heat: 22
+
+# Shotgun
+- type: entity
+  name: wide laser barrage
+  id: HLBulletLaserSpread
+  categories: [ HideSpawnMenu ]
+  parent: NFBaseBulletLaser
+  components:
+  - type: ProjectileSpread
+    proto: NFBulletLaserMedium
+    count: 4 #75 heat damage if you hit all your shots, but wide spread
+    spread: 30
+
+- type: entity
+  name: narrow laser barrage
+  id: HLBulletLaserSpreadNarrow
+  categories: [ HideSpawnMenu ]
+  parent: NFBaseBulletLaser
+  components:
+  - type: ProjectileSpread
+    proto: NFBulletLaserLow
+    count: 4 #50 heat damage if you hit all your shots, but narrower spread
+    spread: 10
+
+- type: entity
+  name: disabling laser barrage
+  id: HLBulletDisablerSmgSpread
+  categories: [ HideSpawnMenu ]
+  parent: NFBulletDisabler
+  components:
+  - type: ProjectileSpread
+    proto: NFBulletDisablerLow
+    count: 3 #bit stronger than a disabler if you hit your shots you goober, still not a 2 hit stun though
+    spread: 9
 
 #region Disabler bolts
 - type: entity
@@ -78,7 +112,7 @@
     impactEffect: BulletImpactEffectDisabler
     damage:
       types:
-        Heat: 2
+        Heat: 0
     soundHit:
       collection: WeakHit
     forceSound: true
@@ -113,7 +147,7 @@
     impactEffect: BulletImpactEffectKinetic
     damage:
       types:
-        Blunt: 10
+        Blunt: 15
         Structural: 30
   - type: Ammo
     muzzleFlash: HitscanEffect
@@ -136,7 +170,7 @@
     impactEffect: BulletImpactEffectKinetic
     damage:
       types:
-        Blunt: 13
+        Blunt: 18
         Structural: 30
 
 - type: entity
@@ -155,8 +189,31 @@
     impactEffect: BulletImpactEffectKinetic
     damage:
       types:
-        Blunt: 18
-        Structural: 30
+        Blunt: 20
+        Structural: 35
   - type: PointLight
     color: "#ffffff"
+  - type: MiningGatheringHard
+
+- type: entity
+  id: ASBulletKineticGambling # Aurora
+  name: kinetic bolt
+  parent: BulletKinetic
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Blunt: 1
+        Structural: 30
+  - type: Ammo
+    muzzleFlash: HitscanEffect
+  - type: TimedDespawn
+    lifetime: 1.5
+  - type: PointLight
+    radius: 2.5
+    color: white
+    energy: 0.5
+  - type: GatheringProjectile
   - type: MiningGatheringHard

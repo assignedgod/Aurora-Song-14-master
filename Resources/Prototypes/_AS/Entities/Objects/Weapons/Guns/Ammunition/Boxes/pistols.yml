@@ -1,0 +1,17 @@
+﻿- type: entity
+  id: ASAmmunitionBoxPistol35Funny
+  parent: NFBaseAmmunitionBoxPistol35
+  name: ammunition box (.35 pistol, Honk)
+  components:
+  - type: BallisticAmmoProvider
+    proto: NFCartridgePistol35Overpressure
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+      color: "#3b7b9c"
+    - state: decal-01
+      color: "#ff00f3"
+    - state: decal-calibre-35
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

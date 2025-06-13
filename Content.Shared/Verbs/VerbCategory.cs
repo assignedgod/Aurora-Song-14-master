@@ -88,5 +88,7 @@ namespace Content.Shared.Verbs
 
         public static readonly VerbCategory Pen =
             new("verb-categories-pen", "/Textures/Interface/pencil.png");
+
+        public static readonly VerbCategory Interaction = new("verb-categories-interaction", null);
     }
 }

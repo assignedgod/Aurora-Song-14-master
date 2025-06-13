@@ -27,7 +27,7 @@
 
 - type: entity
   id: NFWeaponPistolCobra
-  parent: [ NFBaseWeaponPistolChamber45, NFBaseWeaponFramePistolCybersun ]
+  parent: [ NFBaseWeaponPistolChamber25, NFBaseWeaponFramePistolCybersun ]
   name: cobra
   description: |-
     A rugged, robust operator handgun with inbuilt silencer. An illegal firearm often used by Syndicate agents.
@@ -36,7 +36,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
       params:
-        volume: -5
+        volume: -8 # Quiet but not as quiet as upstream's upstream
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Pistols/cobra.rsi
   - type: Clothing

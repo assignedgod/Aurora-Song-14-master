@@ -8,7 +8,7 @@
   components:
   - type: Tag
     tags:
-      - NFMagazineRifle20
+      - NFMagazineRifle20 # TODO: make it make sense, change the tags
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -38,7 +38,7 @@
 - type: entity
   id: NFBaseMagazineDrumRifle20
   name: drum magazine (.20 rifle)
-  parent: [ BaseC1Contraband, RecyclableItemSteelTiny, BaseMagazineRifle ]
+  parent: [ BaseC2ContrabandUnredeemable, RecyclableItemSteelTiny, BaseMagazineRifle ]
   abstract: true
   components:
   - type: Tag
@@ -291,7 +291,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle20
-    capacity: 15
+    capacity: 25
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

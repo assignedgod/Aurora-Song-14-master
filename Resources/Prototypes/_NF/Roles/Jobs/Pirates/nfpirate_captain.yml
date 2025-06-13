@@ -46,3 +46,4 @@
   storage:
     back:
     - AppraisalTool
+    - ShipVoucherPirate

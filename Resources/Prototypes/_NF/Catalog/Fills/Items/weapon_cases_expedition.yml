@@ -391,7 +391,7 @@
     contents:
     - id: NFWeaponRifleAssaultJackdawExpedition
       amount: 1
-    - id: NFMagazineRifle20
+    - id: HLMagazineCaselessRifle
       amount: 2
 
 #region Energy

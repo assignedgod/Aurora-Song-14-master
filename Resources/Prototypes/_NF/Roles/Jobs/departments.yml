@@ -8,6 +8,8 @@
   - StationRepresentative
   - DirectorOfCare
   - StationTrafficController
+  - Medic # Aurora
+  - Service # Aurora
   - Valet # nyano
   - NFJanitor
   - MailCarrier # nyano

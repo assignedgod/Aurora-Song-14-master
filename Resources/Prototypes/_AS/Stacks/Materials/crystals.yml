@@ -1,0 +1,5 @@
+﻿- type: stack
+  id: MercCoin
+  name: stack-aurora-merc-coin
+  icon: _AS/Objects/Specific/Mercenary/merc_coin.rsi
+  spawn: MercCoin1

@@ -127,7 +127,7 @@
 
 - type: anomalyBehavior
   id: InconstancyParticle
-  earnPointModifier: 1.55 # Frontier: 1.8<1.55
+  earnPointModifier: 1.6 # Frontier: 1.8<1.55
   description: anomaly-behavior-inconstancy
   components:
   - type: ShuffleParticlesAnomaly

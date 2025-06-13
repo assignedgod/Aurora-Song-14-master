@@ -1,0 +1,23 @@
+﻿- type: entity
+  id: ASCartridgePistol35Funny
+  name: cartridge (.35 pistol, Honk)
+  parent: NFBaseCartridgePistol35
+  components:
+  - type: CartridgeAmmo
+    proto: ASBulletPistol35Funny
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#ff00f3"
+  - type: ChemicalAmmo
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        reagents:
+        - ReagentId: Honk
+          Quantity: 0.5
+  - type: SolutionTransfer
+    maxTransferAmount: 0.5

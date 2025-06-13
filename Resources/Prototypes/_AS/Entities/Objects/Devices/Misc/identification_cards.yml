@@ -1,0 +1,13 @@
+﻿- type: entity
+  parent: IDCardStandard
+  id: MedicIDCard
+  name: Medic ID Card
+  components:
+  - type: PresetIdCard
+    job: Medic
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idmedicaldoctor
+  - type: Item
+    heldPrefix: medic #temporary to OBSERVE

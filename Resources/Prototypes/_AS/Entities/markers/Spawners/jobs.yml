@@ -1,0 +1,27 @@
+﻿- type: entity
+  id: SpawnPointMedic
+  parent: SpawnPointJobBase
+  name: Medic
+  components:
+  - type: SpawnPoint
+    job_id: Medic
+  - type: Sprite
+    sprite: _NF/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: medic
+
+- type: entity
+  id: SpawnPointService
+  parent: SpawnPointJobBase
+  name: Service
+  components:
+  - type: SpawnPoint
+    job_id: Service
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: serviceworker
+
+

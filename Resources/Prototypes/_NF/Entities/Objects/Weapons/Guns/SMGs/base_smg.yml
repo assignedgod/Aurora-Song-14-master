@@ -13,10 +13,10 @@
   - type: Gun
     projectileSpeed: 22.5
     minAngle: 6.2
-    maxAngle: 18.6
+    maxAngle: 14.6
     angleIncrease: 1
     angleDecay: 2
-    fireRate: 6
+    fireRate: 7
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -37,10 +37,10 @@
     maxAngle: -7.5
   - type: Gun
     minAngle: 6.7
-    maxAngle: 21
+    maxAngle: 17
     angleIncrease: 1
     angleDecay: 2
-    fireRate: 4
+    fireRate: 7
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 
@@ -49,10 +49,21 @@
   parent: [ BaseC3SyndicateContraband, NFBaseWeaponFrameSubMachineGun ]
   abstract: true
   components:
+  - type: GunWieldBonus
+    minAngle: -4.2
+    maxAngle: -7.3
   - type: Gun
+    minAngle: 12.2
+    maxAngle: 21.6
     angleIncrease: 0.5
     angleDecay: 2
-    fireRate: 3.5
+    fireRate: 7
+    burstCooldown: 0.5
+    shotsPerBurst: 5
+    availableModes:
+    - Burst
+    - FullAuto
+    - SemiAuto
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-cybersun-industries
 
@@ -62,14 +73,15 @@
   abstract: true
   components:
   - type: GunWieldBonus
-    minAngle: -1
-    maxAngle: -7.5
+    minAngle: 0
+    maxAngle: 0
+    angleIncrease: -1
   - type: Gun
-    minAngle: 6.7
+    minAngle: 2
     maxAngle: 21
-    angleIncrease: 1
-    angleDecay: 2
-    fireRate: 5
+    fireRate: 8
+    angleIncrease: 3
+    angleDecay: 12
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-gorlex-steel-works
 
@@ -86,7 +98,7 @@
     maxAngle: 21
     angleIncrease: 1
     angleDecay: 2
-    fireRate: 4
+    fireRate: 7
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-frontier-gunsmith-consortium
 

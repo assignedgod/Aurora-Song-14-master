@@ -1,0 +1,26 @@
+﻿#region .25 caseless
+- type: Tag
+  id: HLMagazineCaselessRifle
+
+- type: Tag
+  id: HLMagazineCaselessRifleShort
+
+- type: Tag
+  id: HLMagazinePistolCaselessRifle
+
+#region Docking Tags
+- type: Tag
+  id: SecDock
+
+- type: Tag
+  id: RegularDock
+
+- type: Tag
+  id: MediDock
+
+- type: Tag
+  id: MercDock
+
+#region uplinks - Aurora
+- type: Tag
+  id: MercenaryUplink

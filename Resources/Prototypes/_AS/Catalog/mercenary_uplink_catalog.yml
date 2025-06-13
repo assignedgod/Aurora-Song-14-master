@@ -1,0 +1,289 @@
+﻿# Hardsuits
+- type: listing
+  id: UplinkMercenaryHardsuit
+  name:  uplink-mercenary-hardsuit-name
+  description: uplink-mercenary-hardsuit-desc
+  productEntity: ClothingOuterHardsuitMercenary
+  cost:
+    MercCoin: 10
+  categories:
+  - UplinkMercenaryHardsuits
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+# Weapons
+- type: listing
+  id: UplinkMercenaryWeaponSurpLecter
+  name:  uplink-mercenary-rifle1-name
+  description: uplink-mercenary-rifle1-desc
+  productEntity: WeaponRifleSurpLecter
+  icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/surplecter.rsi, state: icon }
+  cost:
+    MercCoin: 8
+  categories:
+  - UplinkMercenaryWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenarySurpKammerer
+  name:  uplink-mercenary-shotgun1-name
+  description: uplink-mercenary-shotgun1-desc
+  productEntity: WeaponShotgunSurpKammerer
+  icon: { sprite: _NF/Objects/Weapons/Guns/Shotguns/surppump.rsi, state: icon }
+  cost:
+    MercCoin: 9
+  categories:
+  - UplinkMercenaryWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenarySurpDrozd
+  name:  uplink-mercenary-smg1-name
+  description: uplink-mercenary-smg1-desc
+  productEntity: WeaponSubMachineGunSurpDrozd
+  icon: { sprite: _NF/Objects/Weapons/Guns/SMGs/surpdrozd.rsi, state: icon }
+  cost:
+    MercCoin: 6
+  categories:
+  - UplinkMercenaryWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+#Utility - Medical
+
+- type: listing
+  id: UplinkMercenaryGauze
+  name:  uplink-mercenary-gauze-name
+  description: uplink-mercenary-gauze-desc
+  productEntity: Gauze
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 2
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryOintment
+  name:  uplink-mercenary-ointment-name
+  description: uplink-mercenary-ointment-desc
+  productEntity: Ointment
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 2
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryBrutepack
+  name:  uplink-mercenary-brute-pack-name
+  description: uplink-mercenary-brute-pack-desc
+  productEntity: Brutepack
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 2
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryMedkit
+  name:  uplink-mercenary-medkit-name
+  description: uplink-mercenary-medkit-desc
+  productEntity: MedkitFilled
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 6
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryMedkitAdvanced
+  name:  uplink-mercenary-medkit-advanced-name
+  description: uplink-mercenary-medkit-advanced-desc
+  productEntity: MedkitAdvancedFilled
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 8
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryCombatMedkit
+  name:  uplink-mercenary-combat-medkit-name
+  description: uplink-mercenary-combat-medkit-desc
+  productEntity: MedkitCombatFilled
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 10
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryCombatPunctKit
+  name:  uplink-mercenary-combat-punct-kit-name
+  description: uplink-mercenary-combat-punct-kit-desc
+  productEntity: MedkitCombatPunct
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 10
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryCombatCrisisKit
+  name:  uplink-mercenary-combat-crisis-kit-name
+  description: uplink-mercenary-combat-crisis-kit-desc
+  productEntity: MedkitCombatCrisis
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 10
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryCombatBruizKit
+  name:  uplink-mercenary-combat-bruiz-kit-name
+  description: uplink-mercenary-combat-bruiz-kit-desc
+  productEntity: MedkitCombatBruiz
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 10
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryCombatBurnKit
+  name:  uplink-mercenary-combat-burn-kit-name
+  description: uplink-mercenary-combat-burn-kit-desc
+  productEntity: MedkitCombatBurn
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 10
+  categories:
+  - UplinkMercenaryUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+
+# Ammo
+- type: listing
+  id: UplinkMercenary35autoSMGmags
+  name:  uplink-mercenary-35auto-mags-name
+  description: uplink-mercenary-35auto-mags-desc
+  productEntity: WeaponCaseShortSMG35LethalStick
+  #icon: { sprite: , state: icon }
+  cost:
+    MercCoin: 5
+  categories:
+  - UplinkMercenaryAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenary35autoSMGmagsOP
+  name: uplink-mercenary-35auto-OP-mags-name
+  description: uplink-mercenary-35auto-OP-mags-desc
+  productEntity: WeaponCaseShortSMG35OverpressureStick
+  cost:
+    MercCoin: 6
+  categories:
+    - UplinkMercenaryAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenary30Overpressure
+  name: uplink-mercenary-30Rifle-OP-mags-name
+  description: uplink-mercenary-30Rifle-OP-mags-desc
+  productEntity: NFBoxMagazineRifle30Overpressure
+  cost:
+    MercCoin: 6
+  categories:
+    - UplinkMercenaryAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenary20Overpressure
+  name: uplink-mercenary-20Rifle-OP-mags-name
+  description: uplink-mercenary-20Rifle-OP-mags-desc
+  productEntity: NFBoxMagazineRifle20Overpressure
+  cost:
+    MercCoin: 6
+  categories:
+    - UplinkMercenaryAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
