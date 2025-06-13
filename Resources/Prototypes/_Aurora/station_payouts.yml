@@ -1,0 +1,54 @@
+#- type: stationPay # Example of how to add a station pay
+#  id: cargoPay
+#  payPerHour: 14000
+#  job: CargoTechnician
+
+- type: stationPay
+  id: borgPay
+  payPerHour: 9000
+  job: Borg
+
+- type: stationPay
+  id: srPay
+  payPerHour: 25000
+  job: StationRepresentative
+
+- type: stationPay
+  id: stcPay
+  payPerHour: 20000
+  job: StationTrafficController
+
+- type: stationPay
+  id: docPay
+  payPerHour: 25000
+  job: DirectorOfCare
+
+- type: stationPay
+  id: secguardPay
+  payPerHour: 15000
+  job: SecurityGuard
+
+- type: stationPay
+  id: valetPay
+  payPerHour: 15000
+  job: Valet
+
+- type: stationPay
+  id: nfjanitorPay
+  payPerHour: 15000
+  job: NFJanitor
+
+- type: stationPay
+  id: mailcarrierPay
+  payPerHour: 15000
+  job: MailCarrier
+
+- type: stationPay
+  id: medicPay
+  payPerHour: 15000
+  job: Medic
+
+- type: stationPay
+  id: servicePay
+  payPerHour: 15000
+  job: Service

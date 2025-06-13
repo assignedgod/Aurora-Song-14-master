@@ -517,4 +517,8 @@ public enum LogType
     /// </summary>
     ObjectiveSummary = 422,
     #endregion DeltaV Values
+	
+	#region Aurora
+    StationPayDeposit = 14001,
+    #endregion
 }
