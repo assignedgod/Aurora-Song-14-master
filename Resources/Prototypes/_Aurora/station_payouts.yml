@@ -1,194 +1,54 @@
-- type: stationPay
-  id: cargoPay
-  payPerHour: 14000
-  job: CargoTechnician
+#- type: stationPay # Example of how to add a station pay
+#  id: cargoPay
+#  payPerHour: 14000
+#  job: CargoTechnician
 
 - type: stationPay
-  id: BorgPay
-  payPerHour: 14000
+  id: borgPay
+  payPerHour: 9000
   job: Borg
 
 - type: stationPay
-  id: StationAiPay
-  payPerHour: 18000
-  job: StationAi
+  id: srPay
+  payPerHour: 25000
+  job: StationRepresentative
 
 - type: stationPay
-  id: PrisonerPay
-  payPerHour: 9000
-  job: Prisoner
-
-- type: stationPay
-  id: ParamedicPay
-  payPerHour: 14000
-  job: Paramedic
-
-- type: stationPay
-  id: PsychologistPay
-  payPerHour: 14000
-  job: Psychologist
-
-- type: stationPay
-  id: MusicianPay
-  payPerHour: 14000
-  job: Musician
-
-- type: stationPay
-  id: MimePay
-  payPerHour: 14000
-  job: Mime
-
-- type: stationPay
-  id: ClownPay
-  payPerHour: 14000
-  job: Clown
-
-- type: stationPay
-  id: SalvageSpecialistPay
-  payPerHour: 14000
-  job: SalvageSpecialist
-
-- type: stationPay
-  id: DetectivePay
-  payPerHour: 14000
-  job: Detective
-
-- type: stationPay
-  id: SecurityCadetPay
-  payPerHour: 14000
-  job: SecurityCadet
-  
-- type: stationPay
-  id: LawyerPay
-  payPerHour: 14000
-  job: Lawyer
-
-- type: stationPay
-  id: WardenPay
-  payPerHour: 18000
-  job: Warden
-
-- type: stationPay
-  id: SecurityOfficerPay
-  payPerHour: 14000
-  job: SecurityOfficer
-
-- type: stationPay
-  id: ResearchAssistantPay
-  payPerHour: 14000
-  job: ResearchAssistant
-
-- type: stationPay
-  id: ScientistPay
-  payPerHour: 14000
-  job: Scientist
-
-- type: stationPay
-  id: MedicalInternPay
-  payPerHour: 14000
-  job: MedicalIntern
-
-- type: stationPay
-  id: ChemistPay
-  payPerHour: 14000
-  job: Chemist
-
-- type: stationPay
-  id: MedicalDoctorPay
-  payPerHour: 14000
-  job: MedicalDoctor
-
-- type: stationPay
-  id: TechnicalAssistant
-  payPerHour: 14000
-  job: TechnicalAssistant
-
-- type: stationPay
-  id: AtmosphericTechnicianPay
-  payPerHour: 14000
-  job: AtmosphericTechnician
-  
-- type: stationPay
-  id: StationEngineerPay
-  payPerHour: 14000
-  job: StationEngineer
-
-- type: stationPay
-  id: ReporterPay
-  payPerHour: 14000
-  job: Reporter
-
-- type: stationPay
-  id: BoxerPay
-  payPerHour: 14000
-  job: Boxer
-
-- type: stationPay
-  id: ServiceWorkerPay
-  payPerHour: 14000
-  job: ServiceWorker
-
-- type: stationPay
-  id: LibrarianPay
-  payPerHour: 14000
-  job: Librarian
-
-- type: stationPay
-  id: ChaplainPay
-  payPerHour: 14000
-  job: Chaplain
-
-- type: stationPay
-  id: JanitorPay
-  payPerHour: 14000
-  job: Janitor
-
-- type: stationPay
-  id: ChefPay
-  payPerHour: 14000
-  job: Chef
-  
-- type: stationPay
-  id: BotanistPay
-  payPerHour: 14000
-  job: Botanist
-  
-- type: stationPay
-  id: BartenderPay
-  payPerHour: 14000
-  job: Bartender
-  
-- type: stationPay
-  id: HeadOfPersonnelPay
+  id: stcPay
   payPerHour: 20000
-  job: HeadOfPersonnel
-  
-- type: stationPay
-  id: HeadOfSecurityPay
-  payPerHour: 20000
-  job: HeadOfSecurity
-  
-- type: stationPay
-  id: ChiefMedicalOfficerPay
-  payPerHour: 20000
-  job: ChiefMedicalOfficer
-  
-- type: stationPay
-  id: ChiefEngineerPay
-  payPerHour: 20000
-  job: ChiefEngineer
+  job: StationTrafficController
 
 - type: stationPay
-  id: StationCaptainPay
-  payPerHour: 20000
-  job: StationCaptain
-  
+  id: docPay
+  payPerHour: 25000
+  job: DirectorOfCare
+
 - type: stationPay
-  id: ResearchDirectorPay
-  payPerHour: 20000
-  job: ResearchDirector
-  
+  id: secguardPay
+  payPerHour: 15000
+  job: SecurityGuard
+
 - type: stationPay
-  id: QuartermasterPay
-  payPerHour: 20000
-  job: Quartermaster
+  id: valetPay
+  payPerHour: 15000
+  job: Valet
+
+- type: stationPay
+  id: nfjanitorPay
+  payPerHour: 15000
+  job: NFJanitor
+
+- type: stationPay
+  id: mailcarrierPay
+  payPerHour: 15000
+  job: MailCarrier
+
+- type: stationPay
+  id: medicPay
+  payPerHour: 15000
+  job: Medic
+
+- type: stationPay
+  id: servicePay
+  payPerHour: 15000
+  job: Service
