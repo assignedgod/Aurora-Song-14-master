@@ -3,6 +3,8 @@
 #  payPerHour: 14000
 #  job: CargoTechnician
 
+# Default station payouts below here
+
 - type: stationPay
   id: borgPay
   payPerHour: 9000
@@ -10,17 +12,17 @@
 
 - type: stationPay
   id: srPay
-  payPerHour: 25000
+  payPerHour: 30000
   job: StationRepresentative
 
 - type: stationPay
   id: stcPay
-  payPerHour: 20000
+  payPerHour: 25000
   job: StationTrafficController
 
 - type: stationPay
   id: docPay
-  payPerHour: 25000
+  payPerHour: 30000
   job: DirectorOfCare
 
 - type: stationPay
@@ -52,3 +54,45 @@
   id: servicePay
   payPerHour: 15000
   job: Service
+
+# Default police payouts below here
+
+- type: stationPay
+  id: sheriffPay
+  payPerHour: 30000
+  job: Sheriff
+
+- type: stationPay
+  id: bailiffPay
+  payPerHour: 25000
+  job: Bailiff
+
+- type: stationPay
+  id: sergeantPay
+  payPerHour: 20000
+  job: SeniorOfficer
+
+- type: stationPay
+  id: brigmedPay
+  payPerHour: 20000
+  job: Brigmedic
+
+- type: stationPay
+  id: nfdetectivePay
+  payPerHour: 20000
+  job: NFDetective
+
+- type: stationPay
+  id: palPay
+  payPerHour: 20000
+  job: PublicAffairsLiaison
+
+- type: stationPay
+  id: deputyPay
+  payPerHour: 15000
+  job: Deputy
+
+- type: stationPay
+  id: cadetPay
+  payPerHour: 15000
+  job: Cadet
