@@ -38,13 +38,6 @@ public sealed partial class CCVars : CVars
     public static readonly CVarDef<bool> DebugPow3rDisableParallel =
         CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
 
-    #region Surgery
-
-    public static readonly CVarDef<bool> CanOperateOnSelf =
-        CVarDef.Create("surgery.can_operate_on_self", true, CVar.SERVERONLY);
-
-    #endregion
-
     /// <summary>
     ///     Should the player automatically get up after being knocked down
     /// </summary>
