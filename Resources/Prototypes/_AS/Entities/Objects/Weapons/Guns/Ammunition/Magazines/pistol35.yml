@@ -1,0 +1,52 @@
+﻿
+#region standard mags .35
+- type: entity
+  id: ASMagazinePistol35Funny
+  name: pistol magazine (.35 pistol, Honk)
+  parent: NFBaseMagazinePistol35
+  components:
+  - type: BallisticAmmoProvider
+    proto: ASCartridgePistol35Funny
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: decal-01
+      color: "#ff00f3"
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+#region highcap mags .35
+- type: entity
+  id: ASMagazineHighCapacityPistol35Funny
+  name: high capacity pistol magazine (.35 pistol, Honk)
+  parent: NFBaseMagazineHighCapacityPistol35
+  components:
+  - type: BallisticAmmoProvider
+    proto: ASCartridgePistol35Funny
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: decal-01
+      color: "#ff00f3"
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+#region smg mags .35
+
+- type: entity
+  id: ASMagazineSubMachineGun35Funny
+  name: smg magazine (.35 pistol, Honk)
+  parent: NFBaseMagazinePistolSubMachineGun35
+  components:
+  - type: BallisticAmmoProvider
+    proto: ASCartridgePistol35Funny
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: decal-01
+      color: "#ff00f3"
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
