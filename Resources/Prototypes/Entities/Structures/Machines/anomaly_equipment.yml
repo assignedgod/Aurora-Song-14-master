@@ -100,7 +100,7 @@
     drawdepth: Mobs
   - type: SpriteFade
   - type: AnomalyVessel
-    pointMultiplier: 1.5 # Frontier: 2<1.25
+    pointMultiplier: 2 # Frontier: 2<1.25
   - type: RadiationSource
     intensity: 0.75
     slope: 0.1
