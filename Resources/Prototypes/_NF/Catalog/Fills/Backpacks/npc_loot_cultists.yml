@@ -50,6 +50,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: CrossbowImprovised
     - id: ClothingBeltQuiverCrossbowFilledBolt
     - id: SpaceCash1000
@@ -70,6 +71,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: CrossbowImprovised
     - id: ClothingBeltQuiverCrossbowFilledUranium
     - id: SpaceCash1000
@@ -90,6 +92,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: ClothingBeltQuiverCrossbowFilledPlasma
     - id: SpaceCash500
     # Bonus Loot T1
@@ -109,6 +112,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash500
     # Bonus Loot T1
     - id: SpaceCash500
@@ -128,6 +132,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash1000
       prob: 0.95
     - id: SpaceCash1000
@@ -163,6 +168,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash1000
       prob: 0.95
     - id: SpaceCash500
@@ -200,6 +206,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash1000
       prob: 0.95
     - id: Bloodpack
@@ -226,6 +233,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash500
       prob: 0.95
     - id: Bloodpack

@@ -49,6 +49,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash500
       prob: 1
       amount: 1
@@ -89,6 +90,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash1000
       prob: 0.95
       amount: 1
@@ -139,6 +141,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash1000
       prob: 0.95
       amount: 1
@@ -188,6 +191,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash1000
       prob: 0.95
       amount: 1
@@ -243,6 +247,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
+    - id: MercCoin1
     - id: SpaceCash2500
       prob: 0.95
       amount: 1
