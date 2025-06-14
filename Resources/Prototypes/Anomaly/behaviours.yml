@@ -106,7 +106,7 @@
 
 - type: anomalyBehavior
   id: Fast
-  earnPointModifier: 1.65 # Frontier: 1.9<1.65
+  earnPointModifier: 1.9 # Frontier: 1.9<1.65
   pulseFrequencyModifier: 0.5
   description: anomaly-behavior-fast
 
@@ -127,7 +127,7 @@
 
 - type: anomalyBehavior
   id: InconstancyParticle
-  earnPointModifier: 1.6 # Frontier: 1.8<1.55
+  earnPointModifier: 1.8 # Frontier: 1.8<1.55
   description: anomaly-behavior-inconstancy
   components:
   - type: ShuffleParticlesAnomaly
