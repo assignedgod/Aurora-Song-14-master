@@ -72,12 +72,8 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         if (_afk.IsAfk(player))
             return;
 
-        if (_adminManager.IsAdmin(player))
-        {
+        if (_adminManager.IsAdmin(player)) // Aurora - allow admined players to accumulate playtime on roles while admined.
             trackers.Add(PlayTimeTrackingShared.TrackerAdmin);
-            trackers.Add(PlayTimeTrackingShared.TrackerOverall);
-            return;
-        }
 
         if (!IsPlayerAlive(player))
             return;
