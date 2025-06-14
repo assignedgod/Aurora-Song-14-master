@@ -899,19 +899,18 @@
   categories:
   - UplinkDisruption
 
-# - type: listing # Frontier
-  # id: UplinkEmag
-  # name: uplink-emag-name
-  # description: uplink-emag-desc
-  # productEntity: Emag
-  # discountCategory: veryRareDiscounts
-  # discountDownTo:
-    # Telecrystal: 3
-  # cost:
-    # Telecrystal: 5
-  # categories:
-  # - UplinkDisruption
-
+- type: listing # Frontier
+  id: UplinkEmag
+  name: uplink-emag-name
+  description: uplink-emag-desc
+  productEntity: Emag
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+   Telecrystal: 6
+  cost:
+   Telecrystal: 12
+  categories:
+  - UplinkDisruption
 - type: listing
   id: UplinkRadioJammer
   name: uplink-radio-jammer-name
@@ -1075,7 +1074,7 @@
   description: uplink-surplus-bundle-desc
   productEntity: CrateSyndicateSurplusBundle
   cost:
-    Telecrystal: 35 # Frontier: 20<35
+    Telecrystal: 30 # Frontier: 20<30
   categories:
   - UplinkDisruption
   conditions:
@@ -1683,11 +1682,6 @@
     Telecrystal: 12
   categories:
   - UplinkWearables
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - NukeOpsUplink
 
 - type: listing
   id: UplinkClothingOuterHardsuitJuggernaut
@@ -1918,9 +1912,9 @@
   productEntity: GatfruitSeeds
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 5 # Frontier: 3<5
+    Telecrystal: 2 # Frontier: 3<5
   cost:
-    Telecrystal: 10 # Frontier: 6<10 (all the time in the world)
+    Telecrystal: 4 # Frontier: 6<10 (all the time in the world). Aurora: Very silly to make this cost so much when you cannot make seeds with it
   categories:
   - UplinkWeaponry # Frontier: UplinkJob<UplinkWeaponry
   # conditions: # Frontier:
