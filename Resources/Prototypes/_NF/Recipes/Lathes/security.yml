@@ -469,6 +469,84 @@
   materials:
     Steel: 40
 
+- type: latheRecipe # Aurora
+  parent: BaseEmptyMagazineRecipe
+  id: NFMagazineShotgunDrumEmpty
+  result: NFMagazineShotgunDrumEmpty
+  materials:
+    Steel: 40
+
+#region Filled Mags QOL, Aurora
+- type: latheRecipe # novalite mag
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazineClipRifle20
+  result: NFMagazineClipRifle20
+  materials:
+    Steel: 520 # Same register as before but costs the clip as well. Same efficiency
+
+- type: latheRecipe # gestio mag
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazineRifle30
+  result: NFMagazineRifle30
+  materials:
+    Steel: 620
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFSpeedLoaderPistol35
+  result: NFSpeedLoaderPistol35
+  materials:
+    Steel: 110
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFSpeedLoaderPistol45
+  result: NFSpeedLoaderPistol45
+  materials:
+    Steel: 110
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazinePistol35
+  result: NFMagazinePistol35
+  materials:
+    Steel: 170
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazineHighCapacityPistol35
+  result: NFMagazineHighCapacityPistol35
+  materials:
+    Steel: 240
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazineSubMachineGun35
+  result: NFMagazineSubMachineGun35
+  materials:
+    Steel: 555
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazineSubMachineGunTopMounted35
+  result: NFMagazineSubMachineGunTopMounted35
+  materials:
+    Steel: 555
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazinePistol45
+  result: NFMagazinePistol45
+  materials:
+    Steel: 395
+
+- type: latheRecipe
+  parent: BaseFilledMagazineRecipe
+  id: NFMagazineRifle20
+  result: NFMagazineRifle20
+  materials:
+    Steel: 530
+
 #region Weapons
 - type: latheRecipe
   parent: BaseWeaponRecipe

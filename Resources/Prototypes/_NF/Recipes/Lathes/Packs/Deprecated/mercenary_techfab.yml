@@ -108,6 +108,12 @@
   - NFSpeedLoaderPistol45Empty
   - NFMagazineClipRifle20Empty
   - MagazineLightRifleLowCapacityEmpty
+  - NFMagazineRifle30Empty
+  - NFMagazinePistol35
+  - NFSpeedLoaderPistol35
+  - NFSpeedLoaderPistol45
+  - NFMagazineClipRifle20
+  - NFMagazineRifle30
 
 - type: latheRecipePack
   id: NFMercenaryTechfabDynamicDeprecated
@@ -192,3 +198,9 @@
   - NFMagazineSubMachineGunTopMounted35Empty
   - NFMagazineDrumRifle20Empty
   - MagazineAsmgtUniversalEmpty
+  - NFMagazineRifle30Empty
+  - NFMagazinePistol35
+  - NFSpeedLoaderPistol35
+  - NFSpeedLoaderPistol45
+  - NFMagazineClipRifle20
+  - NFMagazineRifle30
