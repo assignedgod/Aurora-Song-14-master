@@ -50,6 +50,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Item
+    size: Large
     sprite: Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
@@ -66,6 +67,9 @@
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
     sprite: _NF/Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
   - type: BallisticAmmoProvider
     capacity: 5
@@ -142,6 +146,9 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
   - type: BallisticAmmoProvider
     capacity: 1
@@ -160,6 +167,9 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun_inhands_64x.rsi
   - type: BallisticAmmoProvider
     capacity: 1

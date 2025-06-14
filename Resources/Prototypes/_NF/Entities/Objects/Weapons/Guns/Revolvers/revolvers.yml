@@ -83,6 +83,10 @@
   description: |-
     A pirate's companion. Yarrr! An illegal weapon often used by pirates.
   components:
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Revolvers/flintlock.rsi
   - type: Clothing

@@ -58,7 +58,7 @@
   components:
   - type: Item
     shape:
-    - 0,0,2,0
+    - 0,0,1,0
     - 0,1,0,1
 
 # SMGs
@@ -67,9 +67,7 @@
   abstract: true
   components:
   - type: Item
-    size: Normal
-    shape:
-    - 0,0,2,2
+    size: Large
   - type: Clothing
     quickEquip: false
     slots:
@@ -85,9 +83,7 @@
   abstract: true
   components:
   - type: Item
-    size: Large
-    shape:
-    - 0,0,4,2
+    size: Huge
   - type: Clothing
     quickEquip: false
     slots:
@@ -103,9 +99,7 @@
   abstract: true
   components:
   - type: Item
-    size: Large
-    shape:
-    - 0,0,3,2
+    size: Huge
   - type: Clothing
     quickEquip: false
     slots:
@@ -140,8 +134,6 @@
   components:
   - type: Item
     size: Huge
-    #shape:
-    #- 0,0,4,3
   - type: Clothing
     quickEquip: false
     slots:
