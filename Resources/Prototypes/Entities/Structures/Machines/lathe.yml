@@ -528,6 +528,7 @@
     - MedicalClothingStatic
     - EmptyMedkitsStatic
     - SurgeryStatic
+    - NFLights # Aurora, let them amke lights cmon
     - NFMedicalStatic # Frontier
     # dynamicPacks: # Frontier
     # - Chemistry # Frontier
