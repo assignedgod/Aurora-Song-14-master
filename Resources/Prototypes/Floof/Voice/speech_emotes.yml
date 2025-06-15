@@ -1,4 +1,4 @@
-﻿- type: emoteAdd commentMore actions
+﻿- type: emote
   id: Yap
   name: chat-emote-name-yap
   category: Vocal
