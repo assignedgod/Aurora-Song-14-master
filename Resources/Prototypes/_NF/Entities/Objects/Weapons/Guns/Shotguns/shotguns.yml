@@ -1,7 +1,7 @@
 #region WizDen
 - type: entity
   id: NFWeaponShotgunBulldog
-  parent: [BaseC3SyndicateContraband, NFBaseWeaponShotgunChamber50Magazine, NFBaseWeaponFrameShotgunWieldable]
+  parent: [BaseC3SyndicateContraband, NFBaseWeaponShotgunChamber50Magazine, NFBaseWeaponFrameShotgunWieldable, NFBaseWeaponEncumbranceLMG]
   name: Bulldog
   description: |-
     An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids.
@@ -78,7 +78,7 @@
 
 - type: entity
   id: NFWeaponShotgunSawn
-  parent: [ NFBaseWeaponShotgunChamber50, NFBaseWeaponFrameShotgun ]
+  parent: [ NFBaseWeaponShotgunChamber50, NFBaseWeaponFrameShotgun, NFBaseWeaponEncumbrancePistol ]
   name: sawn-off shotgun
   description: |-
     Groovy!
@@ -89,6 +89,8 @@
     sprite: _DV/Objects/Weapons/Guns/Shotguns/sawn.rsi
   - type: Item
     size: Normal
+    shape:
+    - 0,0,4,0
   - type: BallisticAmmoProvider
     capacity: 2
   - type: NFWeaponDetails

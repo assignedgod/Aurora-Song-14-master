@@ -906,11 +906,12 @@
   productEntity: Emag
   discountCategory: veryRareDiscounts
   discountDownTo:
-   Telecrystal: 6
+   Telecrystal: 2
   cost:
-   Telecrystal: 12
+   Telecrystal: 4
   categories:
   - UplinkDisruption
+
 - type: listing
   id: UplinkRadioJammer
   name: uplink-radio-jammer-name
