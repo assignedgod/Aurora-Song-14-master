@@ -11,8 +11,8 @@
     minAngle: -2.1
     maxAngle: -6.3
   - type: Gun
-    projectileSpeed: 22.5
-    minAngle: 6.2
+    projectileSpeed: 30
+    minAngle: 4.2
     maxAngle: 14.6
     angleIncrease: 1
     angleDecay: 2

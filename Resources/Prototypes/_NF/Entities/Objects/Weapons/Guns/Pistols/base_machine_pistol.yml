@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Gun
-    projectileSpeed: 22.5
+    projectileSpeed: 30
     minAngle: 6.2
     maxAngle: 18.6
     angleIncrease: 1

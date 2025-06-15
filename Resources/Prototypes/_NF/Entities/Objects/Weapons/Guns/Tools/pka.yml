@@ -21,7 +21,7 @@
       map: [ "empty-icon" ]
   - type: Gun
     projectileSpeed: 20
-    minAngle: 34.4
+    minAngle: 8.4
     maxAngle: 43.2
     angleIncrease: 7
     angleDecay: 5
