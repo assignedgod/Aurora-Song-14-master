@@ -4,7 +4,7 @@ namespace Content.Shared.Chat
     ///     Represents chat channels that the player can filter chat tabs by.
     /// </summary>
     [Flags, Serializable]
-    public enum ChatChannel : ushort
+    public enum ChatChannel : UInt32
     {
         None = 0,
 
@@ -85,10 +85,15 @@ namespace Content.Shared.Chat
         /// </summary>
         Unspecified = 1 << 14,
 
+        /// <summary>Add commentMore actions
+        ///     Subtle - Floofstation
+        /// </summary>
+        Subtle = 1 << 15,
+
         /// <summary>
         ///     Channels considered to be IC.
         /// </summary>
-        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Notifications,
+        IC = Local | Whisper | Radio | Dead | Emotes | Subtle | Damage | Visual | Notifications,
 
         AdminRelated = Admin | AdminAlert | AdminChat,
     }
