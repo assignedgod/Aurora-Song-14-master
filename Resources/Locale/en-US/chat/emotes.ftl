@@ -32,6 +32,9 @@ chat-emote-name-monkeyscreeches = Monkey Screeches
 chat-emote-name-robotbeep = Robot
 chat-emote-name-yawn = Yawn
 chat-emote-name-snore = Snore
+# Floof - Names
+chat-emote-name-gekker = Gekker
+chat-emote-name-yap = Yap
 
 # Message
 chat-emote-msg-scream = screams!
