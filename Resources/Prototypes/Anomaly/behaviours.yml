@@ -106,7 +106,7 @@
 
 - type: anomalyBehavior
   id: Fast
-  earnPointModifier: 1.9 # Frontier: 1.9<1.65
+  earnPointModifier: 1.8 # Frontier: 1.9<1.65
   pulseFrequencyModifier: 0.5
   description: anomaly-behavior-fast
 
@@ -118,7 +118,7 @@
 
 - type: anomalyBehavior
   id: Inconstancy
-  earnPointModifier: 1.45 # Frontier: 1.7<1.45
+  earnPointModifier: 1.5 # Frontier: 1.7<1.45
   description: anomaly-behavior-inconstancy
   components:
   - type: ShuffleParticlesAnomaly
@@ -136,7 +136,7 @@
 
 - type: anomalyBehavior
   id: Jumping
-  earnPointModifier: 1.55 # Frontier: 1.8<1.55
+  earnPointModifier: 1.7 # Frontier: 1.8<1.55
   description: anomaly-behavior-moving
   components:
   - type: ChaoticJump
@@ -148,7 +148,7 @@
 
 - type: anomalyBehavior
   id: FullUnknown
-  earnPointModifier: 1.65 # Frontier: 1.9<1.65
+  earnPointModifier: 1.8 # Frontier: 1.9<1.65
   description: anomaly-behavior-secret
   components:
   - type: SecretDataAnomaly
@@ -170,7 +170,7 @@
 
 - type: anomalyBehavior
   id: JumpingUnknown
-  earnPointModifier: 1.65 # Frontier: 1.9<1.65
+  earnPointModifier: 1.8 # Frontier: 1.9<1.65
   description: anomaly-behavior-moving
   components:
   - type: ChaoticJump
@@ -185,7 +185,7 @@
 
 - type: anomalyBehavior
   id: FastUnknown
-  earnPointModifier: 1.65 # Frontier: 1.9<1.65
+  earnPointModifier: 1.8 # Frontier: 1.9<1.65
   pulseFrequencyModifier: 0.5
   description: anomaly-behavior-fast
   components:
