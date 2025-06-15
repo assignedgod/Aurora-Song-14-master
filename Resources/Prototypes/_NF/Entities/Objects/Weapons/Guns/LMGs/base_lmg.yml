@@ -1,7 +1,7 @@
 #region base
 - type: entity
   id: NFBaseWeaponFrameLightMachineGun
-  parent: [ NFBaseWeaponEncumbranceSniper, NFBaseItemWeaponGunMagazineFed ]
+  parent: [ NFBaseWeaponEncumbranceLMG, NFBaseItemWeaponGunMagazineFed ]
   suffix: Frontier
   abstract: true
   components:
