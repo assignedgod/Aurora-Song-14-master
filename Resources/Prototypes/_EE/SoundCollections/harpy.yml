@@ -20,6 +20,10 @@
     - /Audio/Voice/Skeleton/skeleton_scream.ogg
     - /Audio/Voice/Reptilian/reptilian_scream.ogg
     - /Audio/Voice/Vox/shriek1.ogg # Frontier
+    - /Audio/Floof/Voice/Vulpkanin/vulpscream1.ogg # Floofstation
+    - /Audio/Floof/Voice/Vulpkanin/vulpscream2.ogg # Floofstation
+    - /Audio/Floof/Voice/Vulpkanin/vulpscream3.ogg # Floofstation
+    - /Audio/Floof/Voice/Vulpkanin/vulpscream4.ogg # Floofstation
 
 - type: soundCollection
   id: HarpyLaugh
@@ -221,7 +225,7 @@
 
 - type: soundCollection
   id: HarpyChitter
-  files: 
+  files:
     - /Audio/Voice/Moth/moth_chitter.ogg
     # - /Audio/Machines/circuitprinter.ogg # Frontier
     # - /Audio/Machines/diagnoser_printing.ogg # Frontier
@@ -230,18 +234,18 @@
 
 - type: soundCollection
   id: HarpySqueak
-  files: 
+  files:
     - /Audio/Voice/Moth/moth_squeak.ogg
     - /Audio/Animals/mouse_squeak.ogg
 
 - type: soundCollection
   id: HarpyCaws
-  files: 
+  files:
     - /Audio/_DV/Voice/Harpy/caw1.ogg
 
 - type: soundCollection
   id: HarpyChirps
-  files: 
+  files:
     - /Audio/_DV/Voice/Harpy/chirp1.ogg
     - /Audio/Voice/Talk/pai.ogg
     - /Audio/Voice/Talk/pai_ask.ogg
